@@ -4505,7 +4505,9 @@
         const da = new DynamicAdapt("max");
         da.init();
         var aos = __webpack_require__(711);
-        aos.init();
+        aos.init({
+            once: true
+        });
         const blogItems = document.querySelector(".blog__items");
         let data;
         let startItem = 0;
